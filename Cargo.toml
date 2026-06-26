@@ -34,7 +34,7 @@ socket2 = "0.6.3"
 fnv = "1.0.7"
 twox-hash = { version = "2.1.2", default-features = false, features = ["xxhash32", "std"] }
 bytes = "1.11.1"
-kafka-protocol = { version = "0.17.0", default-features = false, features = ["client"] }
+kafka-protocol = { version = "0.17.0", features = ["client"] }
 indexmap = "2.14.0"
 thiserror = "2.0.18"
 tracing = "0.1.44"
